@@ -10,6 +10,10 @@
       href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Poppins:wght@300;400;600;900&family=Roboto:ital@0;1&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
@@ -97,13 +101,14 @@
             <!-- 1 -->
             <div class="chef-first">
               <div class="chef-wrapper-img">
-                <img src="./chefs-1.jpg" alt="chef first" />
+                <img src="./chefs-1.jpg" alt="chef first" class="chef-img" />
               </div>
               <div class="chef-first-content">
                 <h3 class="chefs-title">Настя</h3>
+
                 <p class="chefs-text">Привіт, я Настя!</p>
                 <p class="chefs-text">
-                  Вже 10 років, я свтілюю у життя цікаві та смачні ідеї.
+                  Вже 10 років, я втілюю у життя цікаві та смачні ідеї.
                 </p>
                 <p class="chefs-text">Я випічу для вас найсмачніщі вироби!</p>
               </div>
@@ -111,7 +116,7 @@
             <!-- 2 -->
             <div class="chef-second">
               <div class="chef-wrapper-img">
-                <img src="./chefs-2.jpg" alt="chef second" />
+                <img src="./chefs-2.jpg" alt="chef second" class="chef-img" />
               </div>
               <div class="chef-second-content">
                 <h3 class="chefs-title">Влад</h3>
@@ -128,6 +133,116 @@
           </div>
         </div>
       </section>
+      <section class="formats">
+        <div class="container">
+          <h2 class="formats-main section-title">Формати</h2>
+           
+          <div class="formats__slider swiper">
+          <div class="swiper-wrapper">
+            <!-- 1 -->
+            <div class="swiper-slide">
+              <div class="formats__item">
+                <img src="./formats-1.jpg" />
+                <div class="formats__content">
+                <h3 class="formats__item-title">Walrus</h3>
+                <p class="formats__item-text">
+                 Площа: до 120 м2<br>
+                 Меню: розширене меню <br>
+                 Штат: 2 продавці-касири, 2 пекарі, 2 помічники пекаря, 2 офіціанти-різнороби<br>
+                 Посадкові місця: є
+                </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="swiper-slide">
+              <div class="formats__item">
+                <img src="./formats-2.jpg" />
+                <h3 class="formats__item-title">Horseshoe</h3>
+                <p class="formats__item-text">
+               Площа: до 25 м2<br>
+               Меню: найпопулярніші позиції меню<br>
+               Штат: 2 продавці-касири, 2 пекарі, 1<br> помічник пекаря<br>
+               Посадкові місця: відсутні 
+                </p>
+                
+              </div>
+            </div>
+
+            <!-- 3 -->
+             <div class="swiper-slide">
+              <div class="formats__item">
+                <img src="./formats-3.jpg" />
+                <h3 class="formats__item-title">Handlebar</h3>
+                <p class="formats__item-text">
+               Площа: до 15 м2<br>
+               Меню: найпопулярніші позиції меню<br> 
+               Штат: 1 продавець, 1 пекар, 1 помічник пекаря<br>
+               Посадкові місця: відсутні
+                </p>
+                
+              </div>
+            </div>
+            <!-- 4 -->
+            <div class="swiper-slide">
+              <div class="formats__item">
+                <img src="./formats-1.jpg" />
+                <h3 class="formats__item-title">Walrus</h3>
+                <p class="formats__item-text">
+                 Площа: до 120 м2<br>
+                 Меню: розширене меню <br>
+                 Штат: 2 продавці-касири, 2 пекарі, 2 помічники пекаря, 2 офіціанти-різнороби<br>
+                 Посадкові місця: є
+                </p>
+                
+              </div>
+            </div>
+
+            <!-- 5 -->
+           <div class="swiper-slide">
+              <div class="formats__item">
+                <img src="./formats-2.jpg" />
+                <div class="formats__content">
+                <h3 class="formats__item-title">Horseshoe</h3>
+                <p class="formats__item-text">
+               Площа: до 25 м2<br>
+               Меню: найпопулярніші позиції меню<br>
+               Штат: 2 продавці-касири, 2 пекарі, 1<br> помічник пекаря<br>
+               Посадкові місця: відсутні 
+                </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 6 -->
+           <div class="swiper-slide">
+              <div class="formats__item">
+                <img src="./formats-3.jpg" />
+                <h3 class="formats__item-title">Handlebar</h3>
+                <p class="formats__item-text">
+               Площа: до 15 м2<br>
+               Меню: найпопулярніші позиції меню<br> 
+               Штат: 1 продавець, 1 пекар, 1 помічник пекаря<br>
+               Посадкові місця: відсутні
+                </p>
+                
+              </div>
+            </div>
+
+               <!-- кнопки -->
+          <div class="formats__arrow formats__arrow-prev">
+            <img src="./formats-arrow-left.svg" alt="arrow-left" />
+          </div>
+          <div class="formats__arrow formats__arrow-next">
+            <img src="./formats-arrow-right.svg" alt="arrow-right" />
+          </div>
+
+          </div>
+        </div>
+      </section>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
   </body>
 </html>
